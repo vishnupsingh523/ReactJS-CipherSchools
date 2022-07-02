@@ -1,5 +1,7 @@
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  /* margin: 0; */
 }
 
 .comp2{
@@ -9,4 +11,85 @@
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 5px black;
+}
+
+/* ************ HEADER ****************** */
+.header{
+  padding-left: 20px;
+  display: flex;
+  /* float: right; */
+  padding: 5px;
+
+  background-color: rgba(145, 255, 255, 0.656);
+}
+.header nav{
+  margin-left: 20px;
+  padding: 5px;
+  color: black;
+  /* font-style: none; */
+  font-weight: 700;
+}
+.header nav:hover{
+  color: rgba(70, 62, 62, 0.675);
+}
+
+
+/* ********** SIGNUP and LOGIN ************* */
+.login-screen{
+  color: red;
+  margin: 0 auto;
+}
+
+.signup-screen{
+  padding: 40px;
+  margin: 0.5vh auto;
+}
+
+.signup-screen h1{
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.signup-screen form{
+  margin: 1vh auto;
+  padding: 20px;
+  display: grid;
+  justify-content: space-around;
+
+  font-family: cursive;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.signup-screen form div{
+  margin-top: 5px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.signup-screen form input{
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: cursive;
+  /* box-shadow: 1px 1px black; */
+  background-color: rgba(219, 219, 219, 0.279);
+}
+.signup-screen form .buttonDiv{
+  width: 100%;
+  display: block;
+}
+.signup-screen form button{
+  font-size: 13px;
+  font-weight: 550;
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.signup-screen form button:hover{
+  cursor: pointer;
+  background-color: rgba(177, 177, 177, 0.434);
 }
